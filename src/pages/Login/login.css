@@ -1,0 +1,115 @@
+* {
+    font-family: 'Nunito';
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #CAE1FF;
+    color: #FFFFF0;
+}
+
+.login-logo img {
+    width: 300px;
+    height: 150px;
+    margin: 35px;
+}
+
+.login-right { 
+    background-color: #00C5CD;
+    border-radius: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+.login-right h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+}
+
+.inputEmail {
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: #1A1A1D;
+    border-radius: 5px;
+    padding: 3px;
+    width: 98%;
+    height: 50px;
+}
+
+.inputEmail svg {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.inputEmail input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: #E1E1E6;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.inputPassword {
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: #1A1A1D;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 5px;
+    width: 98%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.inputPassword svg {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.inputPassword input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color:  #E1E1E6;
+    border: none;
+    font-size: 17px;
+    margin-left: 12px;
+    margin-right: 10px;
+}
+
+.login-right button {
+    width: 75%;
+    background-color: #202024;
+    color: #EFF2F5;
+    font-weight: 800;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 5px;
+    border: none;
+    outline-width: 0;
+}
+
+.login-right button:hover {
+    background-color: #121214;
+    color: #EFF2F5;
+    cursor: pointer;
+    transition-duration: 1s;
+}
